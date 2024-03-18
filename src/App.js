@@ -50,7 +50,7 @@ const App = () => {
                     value={formData.email}
                     onChange={handleChange}
                     fullWidth
-                    type="text"
+                    type="email"
                     required
                     
                 />
@@ -69,8 +69,8 @@ const App = () => {
                     <Table>
                         <TableHead>
                             <TableRow>
-                                <TableCell>Task Name</TableCell>
-                                <TableCell>Task</TableCell>
+                                <TableCell>Name</TableCell>
+                                <TableCell>Email</TableCell>
                                 <TableCell>Actions</TableCell>
                             </TableRow>
                         </TableHead>
